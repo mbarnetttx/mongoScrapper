@@ -1,0 +1,29 @@
+{
+  "name": "mongoscrapper",
+  "version": "1.0.0",
+  "description": "An NPR scrapper.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0",
+    "logger": "^0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbarnetttx/mongoScrapper.git"
+  },
+  "author": "Meredith Barnett",
+  "license": "UNLICENCED",
+  "bugs": {
+    "url": "https://github.com/mbarnetttx/mongoScrapper/issues"
+  },
+  "homepage": "https://github.com/mbarnetttx/mongoScrapper#readme"
+}
